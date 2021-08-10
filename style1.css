@@ -343,7 +343,7 @@ section .title::after{
 }
 
 /* about section styling */
-.about{background-color: turquoise;}
+/* .about{background-color: turquoise;} */
 .about .title{
     margin-top: 100px;
 }

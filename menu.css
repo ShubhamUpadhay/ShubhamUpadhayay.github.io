@@ -63,32 +63,37 @@
   transform: translateX(0%);
 }
 .tab-link a:nth-child(1):hover ~ hr, .tab-link a:nth-child(1):focus ~ hr, .tab-link a:nth-child(1):active ~ hr, .tab-link a:nth-child(1):hover ~ .active ~ hr, .tab-link a:nth-child(1):focus ~ .active ~ hr, .tab-link a:nth-child(1):active ~ .active ~ hr {
-  transform: translateX(0%);
+  transform: translateX(10%);
+
 }
 .tab-link a:nth-child(2).active ~ hr {
   transform: translateX(100%);
 }
 .tab-link a:nth-child(2):hover ~ hr, .tab-link a:nth-child(2):focus ~ hr, .tab-link a:nth-child(2):active ~ hr, .tab-link a:nth-child(2):hover ~ .active ~ hr, .tab-link a:nth-child(2):focus ~ .active ~ hr, .tab-link a:nth-child(2):active ~ .active ~ hr {
-  transform: translateX(100%);
+  transform: translateX(110%);
 }
 .tab-link a:nth-child(3).active ~ hr {
   transform: translateX(200%);
 }
 .tab-link a:nth-child(3):hover ~ hr, .tab-link a:nth-child(3):focus ~ hr, .tab-link a:nth-child(3):active ~ hr, .tab-link a:nth-child(3):hover ~ .active ~ hr, .tab-link a:nth-child(3):focus ~ .active ~ hr, .tab-link a:nth-child(3):active ~ .active ~ hr {
-  transform: translateX(200%);
+  transform: translateX(215%);
+  
 }
 .tab-link a:nth-chsild(4).active ~ hr {
   transform: translateX(300%);
 }
 .tab-link a:nth-child(4):hover ~ hr, .tab-link a:nth-child(4):focus ~ hr, .tab-link a:nth-child(4):active ~ hr, .tab-link a:nth-child(4):hover ~ .active ~ hr, .tab-link a:nth-child(4):focus ~ .active ~ hr, .tab-link a:nth-child(4):active ~ .active ~ hr {
-  transform: translateX(300%);
+  transform: translateX(320%);
+ 
 }
 .tab-link a:nth-child(5).active ~ hr {
   transform: translateX(400%);
+
 }
 .tab-link a:nth-child(5):hover ~ hr, .tab-link a:nth-child(5):focus ~ hr, .tab-link a:nth-child(5):active ~ hr, .tab-link a:nth-child(5):hover ~ .active ~ hr, .tab-link a:nth-child(5):focus ~ .active ~ hr, .tab-link a:nth-child(5):active ~ .active ~ hr {
   transform: translateX(400%);
 }
+
 
 .maint {
   width: 100%;
