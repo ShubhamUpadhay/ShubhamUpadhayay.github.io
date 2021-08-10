@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: crimson;
+    background: #65000b;
     width: 30%;
   }
   .tab-link a {
@@ -131,8 +131,8 @@
   transition: color .4s;
 }
 .container .icons a:hover{
-  color: crimson;
-  border: 2px solid crimson;
+  color: #65000b;
+  border: 2px solid #65000b;
 }
 .container .icons::before,
 .container .icons::after{
