@@ -22,6 +22,13 @@ $(document).ready(function(){
          $('.navbar .maint').toggleClass("actual");
         $('.menu-btn i').toggleClass("active");
     });
+$('.hatanahai').click(function(){
+    $(".maint").removeClass("actual");
+    $(".menu-btn i").removeClass("active");
+})
+
+
+
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Developer", "Mechanical Engineer"],
