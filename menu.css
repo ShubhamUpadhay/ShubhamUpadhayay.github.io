@@ -33,7 +33,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: #65000b;
+    background:linear-gradient(to right, #DC0000,#FF0B0B,#DC0000);
+
     width: 30%;
   }
   .tab-link a {
@@ -131,8 +132,8 @@
   transition: color .4s;
 }
 .container .icons a:hover{
-  color: #65000b;
-  border: 2px solid #65000b;
+  color: #DC0000;
+  border: 2px solid #FF0B0B;
 }
 .container .icons::before,
 .container .icons::after{
